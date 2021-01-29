@@ -3151,7 +3151,7 @@
 					}
 
 			.wrapper.style2 label {
-				color: #ffffff;
+				color: #000000;
 			}
 
 			.wrapper.style2 input[type="text"],
@@ -3159,8 +3159,8 @@
 			.wrapper.style2 input[type="email"],
 			.wrapper.style2 select,
 			.wrapper.style2 textarea {
-				background: rgba(255, 255, 255, 0.075);
-				border-color: rgba(255, 255, 255, 0.15);
+				background: rgba(0, 0, 0, 0.075);
+				border-color: rgb(0, 0, 0);
 			}
 
 				.wrapper.style2 input[type="text"]:focus,
@@ -3173,30 +3173,30 @@
 				}
 
 			.wrapper.style2 .select-wrapper:before {
-				color: rgba(255, 255, 255, 0.15);
+				color: rgb(0, 0, 0);
 			}
 
 			.wrapper.style2 input[type="checkbox"] + label,
 			.wrapper.style2 input[type="radio"] + label {
-				color: #c0c5c9;
+				color: #000000;
 			}
 
 				.wrapper.style2 input[type="checkbox"] + label:before,
 				.wrapper.style2 input[type="radio"] + label:before {
-					background: rgba(255, 255, 255, 0.075);
-					border-color: rgba(255, 255, 255, 0.15);
+					background: rgba(0, 0, 0, 0.075);
+					border-color: rgba(0, 0, 0, 0.5);
 				}
 
 			.wrapper.style2 input[type="checkbox"]:checked + label:before,
 			.wrapper.style2 input[type="radio"]:checked + label:before {
-				background-color: #c1ccd6;
-				border-color: #c1ccd6;
+				background-color: #17be11;
+				border-color: #000000;
 				color: #ffffff;
 			}
 
 			.wrapper.style2 input[type="checkbox"]:focus + label:before,
 			.wrapper.style2 input[type="radio"]:focus + label:before {
-				border-color: #c1ccd6;
+				border-color: #000000;
 				box-shadow: 0 0 0 1px #c1ccd6;
 			}
 
