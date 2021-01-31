@@ -23,6 +23,18 @@
 		display: block;
 	}
 
+	.pop-out
+    {
+        transition: transform .5s;
+    }
+
+    .pop-out:hover
+    {
+        -ms-transform: scale(1.5, 1.5);
+        -webkit-transform: scale(1.5, 1.5);
+        transform: scale(1.5, 1.5);
+    }
+
 	body {
 		line-height: 1;
 	}
@@ -3151,7 +3163,7 @@
 					}
 
 			.wrapper.style2 label {
-				color: #000000;
+				color: #ffffff;
 			}
 
 			.wrapper.style2 input[type="text"],
@@ -3237,7 +3249,7 @@
 				}
 
 			.wrapper.style2 table th {
-				color: #ffffff;
+				color: #000000;
 			}
 
 			.wrapper.style2 table thead {
@@ -3781,6 +3793,11 @@
 		body.is-loading #banner:before {
 			opacity: 1;
 		}
+
+	#darkText p {
+		color: rgb(0, 0, 0);
+		font-size: 1.5em;
+	}
 
 /* Main */
 

@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" type="image/png" href="favicon.png"/>
 	</head>
-	<body>
+	<body class="subpage">
 
 		<!-- Header -->
 			<header id="header">
@@ -31,80 +31,67 @@
 			</nav>
 
 		<!-- Main -->
-		<div id="main">
-
-			<!-- One -->
-				<section class="wrapper style2">
-					<div class="inner">
-						<header class="align-center">
-							<h2>Nam eu nisi non ante sodale</h2>
-							<p>Cras sagittis turpis sit amet est tempus, sit amet consectetur purus tincidunt.</p>
-						</header>
-						<div class="video">
-							<div class="video-wrapper">
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/s6zR2T9vn2c" frameborder="0" allowfullscreen></iframe>
-							</div>
-							<p class="caption">
-								In luctus nunc nec lacus condimentum maximus. Nunc vestibulum urna a arcu dignissim, nec aliquam ultrices ac massa eget placerat.
-							</p>
-						</div>
-						<p>Curabitur venenatis lorem ut finibus finibus. Ut quis eleifend libero, nec ultricies metus. Morbi magna risus, congue sit amet pellentesque eget, malesuada ut justo. Sed ac pretium quam. Ut vel ex vitae enim sagittis posuere ac id erat. Vestibulum vel ullamcorper tellus. Donec sapien massa, venenatis ac felis vel, vestibulum sagittis enim. Maecenas ut egestas lorem, nec luctus ligula. Vestibulum neque diam, aliquet non enim a, cursus lacinia metus. Aenean fringilla luctus rhoncus. Integer vulputate massa ac suscipit venenatis. Integer luctus elit non nulla fringilla, ullamcorper maximus sem congue. Integer tristique eu nisi nec fermentum. Ut malesuada quis massa at ultricies.</p>
-						<p>Donec molestie tellus eu tincidunt dignissim. Sed sollicitudin bibendum ultricies. Vivamus tristique justo lacinia dui tempus consequat. Sed hendrerit justo in nisl auctor, id rutrum tortor congue. Vivamus mattis nibh et sem rutrum, vel viverra purus viverra. Donec et justo at orci euismod hendrerit vel vel neque. Donec gravida ipsum in augue volutpat laoreet. Ut lobortis turpis sit amet sodales ultrices.</p>
-					</div>
-				</section>
-
+		<div id="main top">
+		
 			<!-- Three -- Explore -->
-			<section class="wrapper ">
+			<section class="wrapper style2">
 				<div class="inner">
 					<header class="align-center">
-						<h2>Check out Saint John</h2>
-						<p>Explore your new home!</p>
+						<h2>Rockwood Properties - Contact Us</h2>
+						<p></p>
 					</header>
 
 					<!-- 3 Column Video Section -->
-						<div class="flex flex-3">
+						<div class="align-center">
 
 							<!-- Rockwood Park -->
-							<div class="video col">
-								<div class="image fit">
-									<img src="images/explore01.jpg" alt="" />
-									<div class="arrow">
-										<div class="icon fa-home"></div>
-									</div>
-								</div>
-								<p class="caption">
-									Rockwood Park
-								</p>
-								<a href="http://www.rockwoodpark.ca/main.html" class="link"><span>Click Me</span></a>
-							</div>
+							<!-- Form -->
+							<h3></h3>
 
-							<!-- Uptown Saint John -->
-							<div class="video col">
-								<div class="image fit">
-									<img src="images/explore02.jpg" alt="" />
-									<div class="arrow">
-										<div class="icon fa-home"></div>
-									</div>
-								</div>
-								<p class="caption">
-									Uptown Saint John
-								</p>
-								<a href="https://uptownsj.com/" class="link"><span>Click Me</span></a>
-							</div>
+							<form method="post" action="#">
+								<div class="row uniform">
+									<div class="6u$ 12u$(xsmall)">
+										<div class="select-wrapper">
+											<select name="category" id="category">
+												<option value="">- Contact Reason -</option>
+												<option value="4">Maintenance Request</option>
+												<option value="3">Rental Question</option>
+												<option value="1">Investment & Media</option>
+												<option value="2">Property Management</option>
+											</select>
+										</div>
+									</div>				
 
-							<!-- Events Saint John -->
-							<div class="video col">
-								<div class="image fit">
-									<img src="images/explore03.jpg" alt="" />
-									<div class="arrow">
-										<div class="icon fa-home"></div>
+									<div class="6u 12u$(xsmall)">
+										Your Name
+										<input type="text" name="name" id="name" value="" placeholder="Name" />
+									</div>
+									<div class="6u$ 12u$(xsmall)">
+										Email
+										<input type="text" name="name" id="name" value="" placeholder="example@email.com" />
+									</div>
+									<div class="6u$ 12u$(xsmall)">
+										Phone
+										<input type="text" name="name" id="name" value="" placeholder="123-456-7890" />
+									</div>
+									<div class="12u$">
+										Message
+										<textarea name="message" id="message" placeholder="Write your message here" rows="3"></textarea>
+									</div>
+
+									<div class="12u$ 12u$(xsmall)">
+										<input type="checkbox" id="newsletter" name="newsletter">
+										<label for="newsletter">Email me a local area newsletter</label>
+									</div>
+
+									<div class="12u$">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+											<li><input type="reset" value="Reset" class="alt" /></li>
+										</ul>
 									</div>
 								</div>
-								<p class="caption">
-									Events Saint John
-								</p>
-								<a href="https://uptownsj.com/events-calendar/" class="link"><span>Click Me</span></a>
-							</div>
+							</form>
 						</div>
 				</div>
 			</section>
